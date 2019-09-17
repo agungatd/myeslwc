@@ -83,7 +83,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Reservation__c.Total_Number_of_Guests__c</field>
+        <field>Reservation__c.Total_Number_Of_Guests__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -167,6 +167,14 @@
     </objectPermissions>
     <tabVisibilities>
         <tab>Market__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Reservation__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Space__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>
